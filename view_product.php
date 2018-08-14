@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row product_page">
 
-      <div class="col-md-9 content_area">
+      <div class="col-md-12 content_area">
 
         <h1>product name</h1>
         <div class="row">
@@ -25,24 +25,6 @@
 
       </div>
 
-
-      <div class="col-md-3 sidebar">
-  
-        <ul>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-
-        </ul>
-
-      </div>
 
     </div>
   </div>
