@@ -3,47 +3,47 @@
 
 
 
-  <div class="container">
-    <div class="row product_page">
-
-      <div class="col-md-9 content_area">
-
-        <h1>product name</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-9">
         <div class="row">
-          <div class="col-md-6">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/51-6p%2BF1TPL._SX355_.jpg" alt="">
+
+
+          <div class="col-md-4 image-thumb">
+            <div class="product_wrapper">
+              <p>price and quantity</p>
+              <img src="https://images-na.ssl-images-amazon.com/images/I/51-6p%2BF1TPL._SX355_.jpg" class="img-responsive index-img"alt="">
+              <p>header</p>
+            </div>
+
           </div>
 
-          <div class="col-md-6">
-            <h5>5 left in stock</h5>
+          <?php $product = new Products;
+          print_r($product->get_product());
 
-            <a href="#">add to basket</a>
+           ?>
+
+
+          <!-- <div class="col-md-4 image-thumb">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51-6p%2BF1TPL._SX355_.jpg" class="img-responsive index-img" alt="">
           </div>
+
+          <div class="col-md-4 image-thumb">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51-6p%2BF1TPL._SX355_.jpg" class="img-responsive index-img" alt="">
+          </div>
+
+          <div class="col-md-4 image-thumb">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51-6p%2BF1TPL._SX355_.jpg" class="img-responsive index-img"alt="">
+          </div> -->
+
+
         </div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
       </div>
-
-
-      <div class="col-md-3 sidebar">
-  
-        <ul>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-          <li><a href="#">nav</a></li>
-
-        </ul>
-
+      <div class="col-md-3">
+        <p>nav</p>
       </div>
-
     </div>
   </div>
 
