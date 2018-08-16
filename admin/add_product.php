@@ -12,7 +12,10 @@
 
     <div class="col-md-10">
       <div class="row">
-      <?php include "includes/view_products.php"; ?>
+
+        <?php include "includes/add_product_form.php" ?>
+
+        </div>
       </div>
     </div>
 

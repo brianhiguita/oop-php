@@ -1,7 +1,7 @@
 
 <footer>
 
-<p>developed by me for me</p>
+
 
 
 </footer>
