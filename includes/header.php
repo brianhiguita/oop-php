@@ -1,6 +1,4 @@
-<?php include "includes/class.user.php"; ?>
-<?php include "includes/class.product.php"; ?>
-
+<?php include "init.php"; ?>
 <!doctype html>
 <html lang="en">
   <head>

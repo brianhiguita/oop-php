@@ -19,7 +19,7 @@
           </div>
 
           <?php $product = new Products;
-          print_r($product->get_product());
+          $product->get_product();
 
            ?>
 
